@@ -1,0 +1,96 @@
+
+$fontColor: #fff; 
+$margin: 10px;
+$bgColor: #dcb499;
+$boxShadow: minimal-bottom;
+$padding: 15px;
+*{
+   
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+
+.navBar{
+  position: sticky-top;
+  background-color: $bgColor;
+  color: $fontColor;
+  display:flex;
+  justify-content: space-around ; 
+  align-items: center;
+  font-size: 25px;
+  backdrop-filter: blur 12px;
+  box-shadow: $boxShadow;
+  padding:15px;
+ }
+
+ .navList{
+ list-style-type: none;
+ background-color: $bgColor;
+}
+
+ .primaryIcon{
+    height: 40px;
+ }
+
+.navList  .listItem{
+    font-weight: 400;
+    background-color: $bgColor;
+    display: inline-block;
+    padding: 20px 20px;
+    
+    }
+    
+.navBar a{
+    color:white;
+    text-decoration: none;
+    background-color:  $bgColor;
+ }  
+ .navBar a:hover{
+    color: #f3f3f3;
+ } 
+
+ .container{
+    background-color: $bgColor;
+    width: 1320px;
+    margin:20px 0 ;
+    padding: 15px;
+
+    .titleBox{
+        color:$fontColor;
+        font-size: h2;
+        padding:15px;
+
+    }
+ }
+
+ .textBox{
+    padding:$padding;
+    box-shadow: $boxShadow;
+    color:$fontColor;
+    font-size: 15px;
+    background-color: #c0997f;
+ }
+ .form1{
+    padding:$padding;
+    box-shadow: $boxShadow;
+    color: $fontColor;
+    font-size: 15px;
+    background-color: #c0997f;
+ }
+
+ .footer1{
+    padding: $padding;
+    box-shadow: $boxShadow;
+    color:$fontColor;
+    font-size: 15px;
+    background-color: #dcb499;
+    margin: $margin;
+
+ }
+
+
+
+

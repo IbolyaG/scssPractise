@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.navBar {
+  position: sticky-top;
+  background-color: #dcb499;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  -webkit-backdrop-filter: blur 12px;
+          backdrop-filter: blur 12px;
+  box-shadow: minimal-bottom;
+  padding: 15px;
+}
+
+.navList {
+  list-style-type: none;
+  background-color: #dcb499;
+}
+
+.primaryIcon {
+  height: 40px;
+}
+
+.navList .listItem {
+  font-weight: 400;
+  background-color: #dcb499;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+  background-color: #dcb499;
+}
+
+.navBar a:hover {
+  color: #f3f3f3;
+}
+
+.container {
+  background-color: #dcb499;
+  width: 1320px;
+  margin: 20px 0;
+  padding: 15px;
+}
+.container .titleBox {
+  color: #fff;
+  font-size: h2;
+  padding: 15px;
+}
+
+.textBox {
+  padding: 15px;
+  box-shadow: minimal-bottom;
+  color: #fff;
+  font-size: 15px;
+  background-color: #c0997f;
+}
+
+.form1 {
+  padding: 15px;
+  box-shadow: minimal-bottom;
+  color: #fff;
+  font-size: 15px;
+  background-color: #c0997f;
+}
+
+.footer1 {
+  padding: 15px;
+  box-shadow: minimal-bottom;
+  color: #fff;
+  font-size: 15px;
+  background-color: #dcb499;
+  margin: 10px;
+}/*# sourceMappingURL=index.css.map */

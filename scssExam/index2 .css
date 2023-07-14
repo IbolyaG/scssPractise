@@ -1,0 +1,41 @@
+*{
+   
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+
+.navBar{
+  background-color: blue;
+  color:white;
+  display:flex;
+  justify-content: space-around ; 
+  align-items: center;
+  font-size: 25px;
+ }
+
+ .navList{
+ list-style-type: none;
+ background-color: blue;
+}
+
+ .primaryIcon{
+    height: 40px;
+ }
+
+.navList  .listItem{
+    background-color: blue;
+    display: inline-block;
+    padding: 20px 20px;
+    }
+.navBar a{
+    color:white;
+    text-decoration: none;
+    background-color: blue;
+ }  
+ .navBar a:hover{
+    color: blueviolet;
+ } 
+
